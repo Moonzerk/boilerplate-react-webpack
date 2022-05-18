@@ -1,0 +1,17 @@
+### BUILD ###
+.cache/
+dist/
+
+### NODE JS ###
+node_modules/
+
+### NPM ###
+npm-debug.log
+package-lock.json
+
+### YARN ###
+yarn-debug.log
+yarn-error.log
+yarn.lock
+
+.env

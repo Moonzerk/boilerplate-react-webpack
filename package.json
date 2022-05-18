@@ -1,0 +1,33 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "React skeleton made with webpack 5",
+  "main": "src/main.js",
+  "author": "aligony",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve --color --progress --config webpack/webpack.dev.js",
+    "dev": "  webpack --color --config webpack/webpack.dev.js",
+    "build": "webpack --color --config webpack/webpack.prod.js"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.1",
+    "esbuild-loader": "^2.19.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-manifest-plugin": "^4.1.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

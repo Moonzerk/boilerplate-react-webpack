@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: "${DOCKER_PREFIX}-app"
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "${NGINX_INTERNAL_PORT}:${NGINX_EXTERNAL_PORT}"
